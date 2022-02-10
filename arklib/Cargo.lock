@@ -30,13 +30,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "anyhow"
+version = "1.0.53"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "94a45b455c14666b85fc40a019e8ab9eb75e3a124e05494f5397122bc9eb06e0"
+
+[[package]]
 name = "arklib"
 version = "0.1.0"
-source = "git+https://github.com/ARK-Builders/arklib?tag=stub#052832dd56d419b742033bd8e5bf7ea8ceae9944"
+source = "git+https://github.com/ARK-Builders/arklib?tag=0.1.1#e834f48e88a01562034bca5b83e21dd490586d6d"
 dependencies = [
+ "anyhow",
+ "canonical-path",
  "crc32fast",
  "env_logger 0.9.0",
+ "lazy_static",
  "log",
+ "walkdir",
 ]
 
 [[package]]
@@ -67,6 +77,12 @@ name = "bytes"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c4872d67bab6358e59559027aa3b9157c53d9358c51423c17554809a8858e0f8"
+
+[[package]]
+name = "canonical-path"
+version = "2.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6e9e01327e6c86e92ec72b1c798d4a94810f147209bbe3ffab6a86954937a6f"
 
 [[package]]
 name = "cesu8"
