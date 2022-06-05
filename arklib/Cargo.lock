@@ -77,6 +77,7 @@ dependencies = [
 [[package]]
 name = "arklib"
 version = "0.1.0"
+source = "git+https://github.com/nagato-chan/arklib#c728e41b633ba1dde88b234969ee1d651236e5ca"
 dependencies = [
  "anyhow",
  "canonical-path",

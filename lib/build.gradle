@@ -31,7 +31,7 @@ cargo {
     libname = "arklib"
     targets = ["arm64", "x86", "x86_64", "arm"]
     prebuiltToolchains = true
-    verbose = true
+    // verbose = true
     profile = "release"
 }
 
